@@ -30,7 +30,8 @@ API разработано с использованием фреймворка 
 ```
 python -m venv venv
 source venv/bin/activate  # Для Windows: venv\Scripts\activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 
 2. Запуск сервера API:
@@ -41,6 +42,7 @@ uvicorn main:app --reload
 Параметр ```--reload``` позволяет серверу автоматически перезапускаться при изменении кода (полезно при разработке).
 
 3. Как открыть интерфейс (Swagger GUI) и варианты использования:
+
 Откройте в браузере ссылку: https://www.google.com/search?q=http://127.0.0.1:8000/docs
 
 Это автоматически сгенерированная документация. Здесь вы можете протестировать API прямо из браузера (кнопка ```Try it out```):
