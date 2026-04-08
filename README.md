@@ -52,3 +52,5 @@ uvicorn main:app --reload
 * Вариант 2: Найти книги дешевле 40£: Установите ```max_price``` = 40.
 
 * Вариант 3: Получить самые дорогие книги, которые есть в наличии: ```availability``` = In stock, ```sort_by``` = price, ```sort_desc``` = true.# scraping-data-api
+
+Изображение выдачи результата хранится в папке artifacts
