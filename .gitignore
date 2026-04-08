@@ -1,0 +1,17 @@
+# Виртуальное окружение
+
+venv/
+env/
+.env
+
+# Python кэш
+
+pycache/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Специфичные файлы ОС
+
+.DS_Store
+Thumbs.db
